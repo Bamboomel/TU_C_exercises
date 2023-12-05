@@ -1,0 +1,21 @@
+digraph BST {
+    node [fontname="Arial"];
+    9999 [label="Foo Bar\n(9999)"];
+    9999 -> 9998 [label="<"];
+    9998 [label="Bar Baz\n(9998)"];
+    9998 -> 9000 [label="<"];
+    9000 [label="Niklas \n(9000)"];
+    null7 [shape=point];
+    9000 -> null7;
+    null8 [shape=point];
+    9000 -> null8;
+    null9 [shape=point];
+    9998 -> null9;
+    9999 -> 10000 [label=">"];
+    10000 [label="Quack\n(10000)"];
+    null10 [shape=point];
+    10000 -> null10;
+    null11 [shape=point];
+    10000 -> null11;
+labelloc="t"
+}

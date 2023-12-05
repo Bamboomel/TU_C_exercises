@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "introprog_ws22",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ckurs_blatt01_aufgabe02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ckurs_blatt01_aufgabe02-Debug-17f3fcd50107f2656187.json",
+					"name" : "ckurs_blatt01_aufgabe02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ckurs_blatt02_aufgabe01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ckurs_blatt02_aufgabe01-Debug-5bf5a6c2c072f65775b5.json",
+					"name" : "ckurs_blatt02_aufgabe01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ckurs_blatt03_aufgabe01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ckurs_blatt03_aufgabe01-Debug-ddd77867ac273a1dc5dd.json",
+					"name" : "ckurs_blatt03_aufgabe01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ckurs_blatt04_aufgabe01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ckurs_blatt04_aufgabe01-Debug-6616a234f2944ea0efbf.json",
+					"name" : "ckurs_blatt04_aufgabe01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ckurs_blatt05_aufgabe01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ckurs_blatt05_aufgabe01-Debug-cfd7fe19de66e7a73ee3.json",
+					"name" : "ckurs_blatt05_aufgabe01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ckurs_blatt06_aufgabe01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ckurs_blatt06_aufgabe01-Debug-da64cce760307aa7fe79.json",
+					"name" : "ckurs_blatt06_aufgabe01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_avl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_avl-Debug-a344ff96cebc209913a3.json",
+					"name" : "introprog_avl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_buecherliste::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_buecherliste-Debug-d569e1aaebc421d42191.json",
+					"name" : "introprog_buecherliste",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_complexity_steps_intro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_complexity_steps_intro-Debug-bf61f4d1c91443a4f491.json",
+					"name" : "introprog_complexity_steps_intro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_complexity_steps_sorting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_complexity_steps_sorting-Debug-35354b661ebe881ab566.json",
+					"name" : "introprog_complexity_steps_sorting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_countsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_countsort-Debug-f8ec68108fad1fcfcfc0.json",
+					"name" : "introprog_countsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_insertionsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_insertionsort-Debug-6129e6bcd6afe4815b69.json",
+					"name" : "introprog_insertionsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_maxheap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_maxheap-Debug-7f34300c1eec94684968.json",
+					"name" : "introprog_maxheap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_merge_sort_iterativ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_merge_sort_iterativ-Debug-147161af9c5b88c770db.json",
+					"name" : "introprog_merge_sort_iterativ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_merge_sort_rekursiv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_merge_sort_rekursiv-Debug-8e9b8bf57a1c30424d0e.json",
+					"name" : "introprog_merge_sort_rekursiv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_quicksort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_quicksort-Debug-83a0da28c841fec5d641.json",
+					"name" : "introprog_quicksort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_sortierte_buecherliste::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_sortierte_buecherliste-Debug-06216ba25b98d39c0755.json",
+					"name" : "introprog_sortierte_buecherliste",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_stacks-rpn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_stacks-rpn-Debug-62aabaff0e0cc0f1e81b.json",
+					"name" : "introprog_stacks-rpn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introprog_telefonbuch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introprog_telefonbuch-Debug-1bec8e3b3fe007588e70.json",
+					"name" : "introprog_telefonbuch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-7f7f0b49ddb7d4103822.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/melissathephasdin/Desktop/Mel/UNI/TU/VL Unterlagen/40017_9_Einf\u00fchrung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/cmake-build-debug",
+		"source" : "/Users/melissathephasdin/Desktop/Mel/UNI/TU/VL Unterlagen/40017_9_Einf\u00fchrung_in_die_Programmierung/C_workshop/Repos/introprog-ws22"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,12 @@
+1984;George Orwell;1949;30;
+A Scanner Darkly this is a very long title what a pitty how long may this title be? I am not sure Can this be infinitely long??? Come on At some point this should be cropped Let us add some more content to test whether this crops the text? It would be very shtty if it does not do what it is supposed to do Yes Yes Yes Yes Yes Yes Yes And just add a few more;Phillip K. Dick;1973;5;
+Bodyguard;William C. Dietz;1994;17;
+Brave New World Revisited;Aldous Leonard Huxley;1958;1;
+Brave New World;Aldous Leonard Huxley;1932;9;
+Burning Chrome;William Gibson;1986;13;
+Colossus And Crab;D.F. Jones;1977;8;
+Colossus;D.F. Jones;1966;6;
+Count Zero;William Gibson;1986;4;
+Cryptonomicon;Neal Stephenson;1999;2;
+Do Androids Dream of Electric Sheep?;Phillip K. Dick;1966;16;
+Heavy Weather;Bruce Sterling;1994;20;

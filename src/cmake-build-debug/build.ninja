@@ -1,0 +1,830 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: introprog_ws22
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/test.c.o: C_COMPILER__test_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/test.c || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/test.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test
+
+build test: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test
+  TARGET_PDB = test.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ckurs_blatt01_aufgabe02
+
+
+#############################################
+# Order-only phony target for ckurs_blatt01_aufgabe02
+
+build cmake_object_order_depends_target_ckurs_blatt01_aufgabe02: phony || CMakeFiles/ckurs_blatt01_aufgabe02.dir
+
+build CMakeFiles/ckurs_blatt01_aufgabe02.dir/ckurs_blatt01_aufgabe02.c.o: C_COMPILER__ckurs_blatt01_aufgabe02_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/ckurs_blatt01_aufgabe02.c || cmake_object_order_depends_target_ckurs_blatt01_aufgabe02
+  DEP_FILE = CMakeFiles/ckurs_blatt01_aufgabe02.dir/ckurs_blatt01_aufgabe02.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ckurs_blatt01_aufgabe02.dir
+  OBJECT_FILE_DIR = CMakeFiles/ckurs_blatt01_aufgabe02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ckurs_blatt01_aufgabe02
+
+
+#############################################
+# Link the executable ckurs_blatt01_aufgabe02
+
+build ckurs_blatt01_aufgabe02: C_EXECUTABLE_LINKER__ckurs_blatt01_aufgabe02_Debug CMakeFiles/ckurs_blatt01_aufgabe02.dir/ckurs_blatt01_aufgabe02.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/ckurs_blatt01_aufgabe02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ckurs_blatt01_aufgabe02
+  TARGET_PDB = ckurs_blatt01_aufgabe02.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ckurs_blatt02_aufgabe01
+
+
+#############################################
+# Order-only phony target for ckurs_blatt02_aufgabe01
+
+build cmake_object_order_depends_target_ckurs_blatt02_aufgabe01: phony || CMakeFiles/ckurs_blatt02_aufgabe01.dir
+
+build CMakeFiles/ckurs_blatt02_aufgabe01.dir/ckurs_blatt02_aufgabe01.c.o: C_COMPILER__ckurs_blatt02_aufgabe01_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/ckurs_blatt02_aufgabe01.c || cmake_object_order_depends_target_ckurs_blatt02_aufgabe01
+  DEP_FILE = CMakeFiles/ckurs_blatt02_aufgabe01.dir/ckurs_blatt02_aufgabe01.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ckurs_blatt02_aufgabe01.dir
+  OBJECT_FILE_DIR = CMakeFiles/ckurs_blatt02_aufgabe01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ckurs_blatt02_aufgabe01
+
+
+#############################################
+# Link the executable ckurs_blatt02_aufgabe01
+
+build ckurs_blatt02_aufgabe01: C_EXECUTABLE_LINKER__ckurs_blatt02_aufgabe01_Debug CMakeFiles/ckurs_blatt02_aufgabe01.dir/ckurs_blatt02_aufgabe01.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/ckurs_blatt02_aufgabe01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ckurs_blatt02_aufgabe01
+  TARGET_PDB = ckurs_blatt02_aufgabe01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ckurs_blatt03_aufgabe01
+
+
+#############################################
+# Order-only phony target for ckurs_blatt03_aufgabe01
+
+build cmake_object_order_depends_target_ckurs_blatt03_aufgabe01: phony || CMakeFiles/ckurs_blatt03_aufgabe01.dir
+
+build CMakeFiles/ckurs_blatt03_aufgabe01.dir/ckurs_blatt03_aufgabe01.c.o: C_COMPILER__ckurs_blatt03_aufgabe01_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/ckurs_blatt03_aufgabe01.c || cmake_object_order_depends_target_ckurs_blatt03_aufgabe01
+  DEP_FILE = CMakeFiles/ckurs_blatt03_aufgabe01.dir/ckurs_blatt03_aufgabe01.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ckurs_blatt03_aufgabe01.dir
+  OBJECT_FILE_DIR = CMakeFiles/ckurs_blatt03_aufgabe01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ckurs_blatt03_aufgabe01
+
+
+#############################################
+# Link the executable ckurs_blatt03_aufgabe01
+
+build ckurs_blatt03_aufgabe01: C_EXECUTABLE_LINKER__ckurs_blatt03_aufgabe01_Debug CMakeFiles/ckurs_blatt03_aufgabe01.dir/ckurs_blatt03_aufgabe01.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/ckurs_blatt03_aufgabe01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ckurs_blatt03_aufgabe01
+  TARGET_PDB = ckurs_blatt03_aufgabe01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ckurs_blatt04_aufgabe01
+
+
+#############################################
+# Order-only phony target for ckurs_blatt04_aufgabe01
+
+build cmake_object_order_depends_target_ckurs_blatt04_aufgabe01: phony || CMakeFiles/ckurs_blatt04_aufgabe01.dir
+
+build CMakeFiles/ckurs_blatt04_aufgabe01.dir/ckurs_blatt04_aufgabe01.c.o: C_COMPILER__ckurs_blatt04_aufgabe01_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/ckurs_blatt04_aufgabe01.c || cmake_object_order_depends_target_ckurs_blatt04_aufgabe01
+  DEP_FILE = CMakeFiles/ckurs_blatt04_aufgabe01.dir/ckurs_blatt04_aufgabe01.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ckurs_blatt04_aufgabe01.dir
+  OBJECT_FILE_DIR = CMakeFiles/ckurs_blatt04_aufgabe01.dir
+
+build CMakeFiles/ckurs_blatt04_aufgabe01.dir/input.c.o: C_COMPILER__ckurs_blatt04_aufgabe01_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/input.c || cmake_object_order_depends_target_ckurs_blatt04_aufgabe01
+  DEP_FILE = CMakeFiles/ckurs_blatt04_aufgabe01.dir/input.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ckurs_blatt04_aufgabe01.dir
+  OBJECT_FILE_DIR = CMakeFiles/ckurs_blatt04_aufgabe01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ckurs_blatt04_aufgabe01
+
+
+#############################################
+# Link the executable ckurs_blatt04_aufgabe01
+
+build ckurs_blatt04_aufgabe01: C_EXECUTABLE_LINKER__ckurs_blatt04_aufgabe01_Debug CMakeFiles/ckurs_blatt04_aufgabe01.dir/ckurs_blatt04_aufgabe01.c.o CMakeFiles/ckurs_blatt04_aufgabe01.dir/input.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/ckurs_blatt04_aufgabe01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ckurs_blatt04_aufgabe01
+  TARGET_PDB = ckurs_blatt04_aufgabe01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ckurs_blatt05_aufgabe01
+
+
+#############################################
+# Order-only phony target for ckurs_blatt05_aufgabe01
+
+build cmake_object_order_depends_target_ckurs_blatt05_aufgabe01: phony || CMakeFiles/ckurs_blatt05_aufgabe01.dir
+
+build CMakeFiles/ckurs_blatt05_aufgabe01.dir/ckurs_blatt05_aufgabe01.c.o: C_COMPILER__ckurs_blatt05_aufgabe01_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/ckurs_blatt05_aufgabe01.c || cmake_object_order_depends_target_ckurs_blatt05_aufgabe01
+  DEP_FILE = CMakeFiles/ckurs_blatt05_aufgabe01.dir/ckurs_blatt05_aufgabe01.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ckurs_blatt05_aufgabe01.dir
+  OBJECT_FILE_DIR = CMakeFiles/ckurs_blatt05_aufgabe01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ckurs_blatt05_aufgabe01
+
+
+#############################################
+# Link the executable ckurs_blatt05_aufgabe01
+
+build ckurs_blatt05_aufgabe01: C_EXECUTABLE_LINKER__ckurs_blatt05_aufgabe01_Debug CMakeFiles/ckurs_blatt05_aufgabe01.dir/ckurs_blatt05_aufgabe01.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/ckurs_blatt05_aufgabe01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ckurs_blatt05_aufgabe01
+  TARGET_PDB = ckurs_blatt05_aufgabe01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ckurs_blatt06_aufgabe01
+
+
+#############################################
+# Order-only phony target for ckurs_blatt06_aufgabe01
+
+build cmake_object_order_depends_target_ckurs_blatt06_aufgabe01: phony || CMakeFiles/ckurs_blatt06_aufgabe01.dir
+
+build CMakeFiles/ckurs_blatt06_aufgabe01.dir/ckurs_blatt06_aufgabe01.c.o: C_COMPILER__ckurs_blatt06_aufgabe01_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/ckurs_blatt06_aufgabe01.c || cmake_object_order_depends_target_ckurs_blatt06_aufgabe01
+  DEP_FILE = CMakeFiles/ckurs_blatt06_aufgabe01.dir/ckurs_blatt06_aufgabe01.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ckurs_blatt06_aufgabe01.dir
+  OBJECT_FILE_DIR = CMakeFiles/ckurs_blatt06_aufgabe01.dir
+
+build CMakeFiles/ckurs_blatt06_aufgabe01.dir/input2.c.o: C_COMPILER__ckurs_blatt06_aufgabe01_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/input2.c || cmake_object_order_depends_target_ckurs_blatt06_aufgabe01
+  DEP_FILE = CMakeFiles/ckurs_blatt06_aufgabe01.dir/input2.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ckurs_blatt06_aufgabe01.dir
+  OBJECT_FILE_DIR = CMakeFiles/ckurs_blatt06_aufgabe01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ckurs_blatt06_aufgabe01
+
+
+#############################################
+# Link the executable ckurs_blatt06_aufgabe01
+
+build ckurs_blatt06_aufgabe01: C_EXECUTABLE_LINKER__ckurs_blatt06_aufgabe01_Debug CMakeFiles/ckurs_blatt06_aufgabe01.dir/ckurs_blatt06_aufgabe01.c.o CMakeFiles/ckurs_blatt06_aufgabe01.dir/input2.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/ckurs_blatt06_aufgabe01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ckurs_blatt06_aufgabe01
+  TARGET_PDB = ckurs_blatt06_aufgabe01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_insertionsort
+
+
+#############################################
+# Order-only phony target for introprog_insertionsort
+
+build cmake_object_order_depends_target_introprog_insertionsort: phony || CMakeFiles/introprog_insertionsort.dir
+
+build CMakeFiles/introprog_insertionsort.dir/introprog_insertionsort.c.o: C_COMPILER__introprog_insertionsort_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_insertionsort.c || cmake_object_order_depends_target_introprog_insertionsort
+  DEP_FILE = CMakeFiles/introprog_insertionsort.dir/introprog_insertionsort.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_insertionsort.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_insertionsort.dir
+
+build CMakeFiles/introprog_insertionsort.dir/arrayio.c.o: C_COMPILER__introprog_insertionsort_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/arrayio.c || cmake_object_order_depends_target_introprog_insertionsort
+  DEP_FILE = CMakeFiles/introprog_insertionsort.dir/arrayio.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_insertionsort.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_insertionsort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_insertionsort
+
+
+#############################################
+# Link the executable introprog_insertionsort
+
+build introprog_insertionsort: C_EXECUTABLE_LINKER__introprog_insertionsort_Debug CMakeFiles/introprog_insertionsort.dir/introprog_insertionsort.c.o CMakeFiles/introprog_insertionsort.dir/arrayio.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_insertionsort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_insertionsort
+  TARGET_PDB = introprog_insertionsort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_countsort
+
+
+#############################################
+# Order-only phony target for introprog_countsort
+
+build cmake_object_order_depends_target_introprog_countsort: phony || CMakeFiles/introprog_countsort.dir
+
+build CMakeFiles/introprog_countsort.dir/introprog_countsort.c.o: C_COMPILER__introprog_countsort_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_countsort.c || cmake_object_order_depends_target_introprog_countsort
+  DEP_FILE = CMakeFiles/introprog_countsort.dir/introprog_countsort.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_countsort.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_countsort.dir
+
+build CMakeFiles/introprog_countsort.dir/arrayio.c.o: C_COMPILER__introprog_countsort_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/arrayio.c || cmake_object_order_depends_target_introprog_countsort
+  DEP_FILE = CMakeFiles/introprog_countsort.dir/arrayio.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_countsort.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_countsort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_countsort
+
+
+#############################################
+# Link the executable introprog_countsort
+
+build introprog_countsort: C_EXECUTABLE_LINKER__introprog_countsort_Debug CMakeFiles/introprog_countsort.dir/introprog_countsort.c.o CMakeFiles/introprog_countsort.dir/arrayio.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_countsort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_countsort
+  TARGET_PDB = introprog_countsort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_complexity_steps_intro
+
+
+#############################################
+# Order-only phony target for introprog_complexity_steps_intro
+
+build cmake_object_order_depends_target_introprog_complexity_steps_intro: phony || CMakeFiles/introprog_complexity_steps_intro.dir
+
+build CMakeFiles/introprog_complexity_steps_intro.dir/introprog_complexity_steps_intro.c.o: C_COMPILER__introprog_complexity_steps_intro_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_complexity_steps_intro.c || cmake_object_order_depends_target_introprog_complexity_steps_intro
+  DEP_FILE = CMakeFiles/introprog_complexity_steps_intro.dir/introprog_complexity_steps_intro.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_complexity_steps_intro.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_complexity_steps_intro.dir
+
+build CMakeFiles/introprog_complexity_steps_intro.dir/introprog_complexity_steps_input.c.o: C_COMPILER__introprog_complexity_steps_intro_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_complexity_steps_input.c || cmake_object_order_depends_target_introprog_complexity_steps_intro
+  DEP_FILE = CMakeFiles/introprog_complexity_steps_intro.dir/introprog_complexity_steps_input.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_complexity_steps_intro.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_complexity_steps_intro.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_complexity_steps_intro
+
+
+#############################################
+# Link the executable introprog_complexity_steps_intro
+
+build introprog_complexity_steps_intro: C_EXECUTABLE_LINKER__introprog_complexity_steps_intro_Debug CMakeFiles/introprog_complexity_steps_intro.dir/introprog_complexity_steps_intro.c.o CMakeFiles/introprog_complexity_steps_intro.dir/introprog_complexity_steps_input.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_complexity_steps_intro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_complexity_steps_intro
+  TARGET_PDB = introprog_complexity_steps_intro.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_complexity_steps_sorting
+
+
+#############################################
+# Order-only phony target for introprog_complexity_steps_sorting
+
+build cmake_object_order_depends_target_introprog_complexity_steps_sorting: phony || CMakeFiles/introprog_complexity_steps_sorting.dir
+
+build CMakeFiles/introprog_complexity_steps_sorting.dir/introprog_complexity_steps_sorting.c.o: C_COMPILER__introprog_complexity_steps_sorting_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_complexity_steps_sorting.c || cmake_object_order_depends_target_introprog_complexity_steps_sorting
+  DEP_FILE = CMakeFiles/introprog_complexity_steps_sorting.dir/introprog_complexity_steps_sorting.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_complexity_steps_sorting.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_complexity_steps_sorting.dir
+
+build CMakeFiles/introprog_complexity_steps_sorting.dir/introprog_complexity_steps_input.c.o: C_COMPILER__introprog_complexity_steps_sorting_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_complexity_steps_input.c || cmake_object_order_depends_target_introprog_complexity_steps_sorting
+  DEP_FILE = CMakeFiles/introprog_complexity_steps_sorting.dir/introprog_complexity_steps_input.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_complexity_steps_sorting.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_complexity_steps_sorting.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_complexity_steps_sorting
+
+
+#############################################
+# Link the executable introprog_complexity_steps_sorting
+
+build introprog_complexity_steps_sorting: C_EXECUTABLE_LINKER__introprog_complexity_steps_sorting_Debug CMakeFiles/introprog_complexity_steps_sorting.dir/introprog_complexity_steps_sorting.c.o CMakeFiles/introprog_complexity_steps_sorting.dir/introprog_complexity_steps_input.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_complexity_steps_sorting.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_complexity_steps_sorting
+  TARGET_PDB = introprog_complexity_steps_sorting.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_buecherliste
+
+
+#############################################
+# Order-only phony target for introprog_buecherliste
+
+build cmake_object_order_depends_target_introprog_buecherliste: phony || CMakeFiles/introprog_buecherliste.dir
+
+build CMakeFiles/introprog_buecherliste.dir/introprog_buecherliste.c.o: C_COMPILER__introprog_buecherliste_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_buecherliste.c || cmake_object_order_depends_target_introprog_buecherliste
+  DEP_FILE = CMakeFiles/introprog_buecherliste.dir/introprog_buecherliste.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_buecherliste.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_buecherliste.dir
+
+build CMakeFiles/introprog_buecherliste.dir/introprog_structs_lists_input.c.o: C_COMPILER__introprog_buecherliste_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_structs_lists_input.c || cmake_object_order_depends_target_introprog_buecherliste
+  DEP_FILE = CMakeFiles/introprog_buecherliste.dir/introprog_structs_lists_input.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_buecherliste.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_buecherliste.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_buecherliste
+
+
+#############################################
+# Link the executable introprog_buecherliste
+
+build introprog_buecherliste: C_EXECUTABLE_LINKER__introprog_buecherliste_Debug CMakeFiles/introprog_buecherliste.dir/introprog_buecherliste.c.o CMakeFiles/introprog_buecherliste.dir/introprog_structs_lists_input.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_buecherliste.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_buecherliste
+  TARGET_PDB = introprog_buecherliste.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_sortierte_buecherliste
+
+
+#############################################
+# Order-only phony target for introprog_sortierte_buecherliste
+
+build cmake_object_order_depends_target_introprog_sortierte_buecherliste: phony || CMakeFiles/introprog_sortierte_buecherliste.dir
+
+build CMakeFiles/introprog_sortierte_buecherliste.dir/introprog_sortierte_buecherliste.c.o: C_COMPILER__introprog_sortierte_buecherliste_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_sortierte_buecherliste.c || cmake_object_order_depends_target_introprog_sortierte_buecherliste
+  DEP_FILE = CMakeFiles/introprog_sortierte_buecherliste.dir/introprog_sortierte_buecherliste.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_sortierte_buecherliste.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_sortierte_buecherliste.dir
+
+build CMakeFiles/introprog_sortierte_buecherliste.dir/introprog_structs_lists_input.c.o: C_COMPILER__introprog_sortierte_buecherliste_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_structs_lists_input.c || cmake_object_order_depends_target_introprog_sortierte_buecherliste
+  DEP_FILE = CMakeFiles/introprog_sortierte_buecherliste.dir/introprog_structs_lists_input.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_sortierte_buecherliste.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_sortierte_buecherliste.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_sortierte_buecherliste
+
+
+#############################################
+# Link the executable introprog_sortierte_buecherliste
+
+build introprog_sortierte_buecherliste: C_EXECUTABLE_LINKER__introprog_sortierte_buecherliste_Debug CMakeFiles/introprog_sortierte_buecherliste.dir/introprog_sortierte_buecherliste.c.o CMakeFiles/introprog_sortierte_buecherliste.dir/introprog_structs_lists_input.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_sortierte_buecherliste.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_sortierte_buecherliste
+  TARGET_PDB = introprog_sortierte_buecherliste.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_stacks-rpn
+
+
+#############################################
+# Order-only phony target for introprog_stacks-rpn
+
+build cmake_object_order_depends_target_introprog_stacks-rpn: phony || CMakeFiles/introprog_stacks-rpn.dir
+
+build CMakeFiles/introprog_stacks-rpn.dir/introprog_stacks-rpn.c.o: C_COMPILER__introprog_stacks-rpn_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_stacks-rpn.c || cmake_object_order_depends_target_introprog_stacks-rpn
+  DEP_FILE = CMakeFiles/introprog_stacks-rpn.dir/introprog_stacks-rpn.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_stacks-rpn.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_stacks-rpn.dir
+
+build CMakeFiles/introprog_stacks-rpn.dir/introprog_input_stacks-rpn.c.o: C_COMPILER__introprog_stacks-rpn_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_input_stacks-rpn.c || cmake_object_order_depends_target_introprog_stacks-rpn
+  DEP_FILE = CMakeFiles/introprog_stacks-rpn.dir/introprog_input_stacks-rpn.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_stacks-rpn.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_stacks-rpn.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_stacks-rpn
+
+
+#############################################
+# Link the executable introprog_stacks-rpn
+
+build introprog_stacks-rpn: C_EXECUTABLE_LINKER__introprog_stacks-rpn_Debug CMakeFiles/introprog_stacks-rpn.dir/introprog_stacks-rpn.c.o CMakeFiles/introprog_stacks-rpn.dir/introprog_input_stacks-rpn.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_stacks-rpn.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_stacks-rpn
+  TARGET_PDB = introprog_stacks-rpn.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_telefonbuch
+
+
+#############################################
+# Order-only phony target for introprog_telefonbuch
+
+build cmake_object_order_depends_target_introprog_telefonbuch: phony || CMakeFiles/introprog_telefonbuch.dir
+
+build CMakeFiles/introprog_telefonbuch.dir/introprog_main_telefonbuch.c.o: C_COMPILER__introprog_telefonbuch_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_main_telefonbuch.c || cmake_object_order_depends_target_introprog_telefonbuch
+  DEP_FILE = CMakeFiles/introprog_telefonbuch.dir/introprog_main_telefonbuch.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_telefonbuch.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_telefonbuch.dir
+
+build CMakeFiles/introprog_telefonbuch.dir/introprog_telefonbuch.c.o: C_COMPILER__introprog_telefonbuch_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_telefonbuch.c || cmake_object_order_depends_target_introprog_telefonbuch
+  DEP_FILE = CMakeFiles/introprog_telefonbuch.dir/introprog_telefonbuch.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_telefonbuch.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_telefonbuch.dir
+
+build CMakeFiles/introprog_telefonbuch.dir/introprog_input_telefonbuch.c.o: C_COMPILER__introprog_telefonbuch_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_input_telefonbuch.c || cmake_object_order_depends_target_introprog_telefonbuch
+  DEP_FILE = CMakeFiles/introprog_telefonbuch.dir/introprog_input_telefonbuch.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_telefonbuch.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_telefonbuch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_telefonbuch
+
+
+#############################################
+# Link the executable introprog_telefonbuch
+
+build introprog_telefonbuch: C_EXECUTABLE_LINKER__introprog_telefonbuch_Debug CMakeFiles/introprog_telefonbuch.dir/introprog_main_telefonbuch.c.o CMakeFiles/introprog_telefonbuch.dir/introprog_telefonbuch.c.o CMakeFiles/introprog_telefonbuch.dir/introprog_input_telefonbuch.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_telefonbuch.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_telefonbuch
+  TARGET_PDB = introprog_telefonbuch.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_merge_sort_rekursiv
+
+
+#############################################
+# Order-only phony target for introprog_merge_sort_rekursiv
+
+build cmake_object_order_depends_target_introprog_merge_sort_rekursiv: phony || CMakeFiles/introprog_merge_sort_rekursiv.dir
+
+build CMakeFiles/introprog_merge_sort_rekursiv.dir/introprog_merge_sort_rekursiv.c.o: C_COMPILER__introprog_merge_sort_rekursiv_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_merge_sort_rekursiv.c || cmake_object_order_depends_target_introprog_merge_sort_rekursiv
+  DEP_FILE = CMakeFiles/introprog_merge_sort_rekursiv.dir/introprog_merge_sort_rekursiv.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_merge_sort_rekursiv.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_merge_sort_rekursiv.dir
+
+build CMakeFiles/introprog_merge_sort_rekursiv.dir/introprog_input_merge_sort.c.o: C_COMPILER__introprog_merge_sort_rekursiv_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_input_merge_sort.c || cmake_object_order_depends_target_introprog_merge_sort_rekursiv
+  DEP_FILE = CMakeFiles/introprog_merge_sort_rekursiv.dir/introprog_input_merge_sort.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_merge_sort_rekursiv.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_merge_sort_rekursiv.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_merge_sort_rekursiv
+
+
+#############################################
+# Link the executable introprog_merge_sort_rekursiv
+
+build introprog_merge_sort_rekursiv: C_EXECUTABLE_LINKER__introprog_merge_sort_rekursiv_Debug CMakeFiles/introprog_merge_sort_rekursiv.dir/introprog_merge_sort_rekursiv.c.o CMakeFiles/introprog_merge_sort_rekursiv.dir/introprog_input_merge_sort.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_merge_sort_rekursiv.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_merge_sort_rekursiv
+  TARGET_PDB = introprog_merge_sort_rekursiv.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_merge_sort_iterativ
+
+
+#############################################
+# Order-only phony target for introprog_merge_sort_iterativ
+
+build cmake_object_order_depends_target_introprog_merge_sort_iterativ: phony || CMakeFiles/introprog_merge_sort_iterativ.dir
+
+build CMakeFiles/introprog_merge_sort_iterativ.dir/introprog_merge_sort_iterativ.c.o: C_COMPILER__introprog_merge_sort_iterativ_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_merge_sort_iterativ.c || cmake_object_order_depends_target_introprog_merge_sort_iterativ
+  DEP_FILE = CMakeFiles/introprog_merge_sort_iterativ.dir/introprog_merge_sort_iterativ.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_merge_sort_iterativ.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_merge_sort_iterativ.dir
+
+build CMakeFiles/introprog_merge_sort_iterativ.dir/introprog_input_merge_sort.c.o: C_COMPILER__introprog_merge_sort_iterativ_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_input_merge_sort.c || cmake_object_order_depends_target_introprog_merge_sort_iterativ
+  DEP_FILE = CMakeFiles/introprog_merge_sort_iterativ.dir/introprog_input_merge_sort.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_merge_sort_iterativ.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_merge_sort_iterativ.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_merge_sort_iterativ
+
+
+#############################################
+# Link the executable introprog_merge_sort_iterativ
+
+build introprog_merge_sort_iterativ: C_EXECUTABLE_LINKER__introprog_merge_sort_iterativ_Debug CMakeFiles/introprog_merge_sort_iterativ.dir/introprog_merge_sort_iterativ.c.o CMakeFiles/introprog_merge_sort_iterativ.dir/introprog_input_merge_sort.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_merge_sort_iterativ.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_merge_sort_iterativ
+  TARGET_PDB = introprog_merge_sort_iterativ.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_maxheap
+
+
+#############################################
+# Order-only phony target for introprog_maxheap
+
+build cmake_object_order_depends_target_introprog_maxheap: phony || CMakeFiles/introprog_maxheap.dir
+
+build CMakeFiles/introprog_maxheap.dir/introprog_main_maxheap.c.o: C_COMPILER__introprog_maxheap_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_main_maxheap.c || cmake_object_order_depends_target_introprog_maxheap
+  DEP_FILE = CMakeFiles/introprog_maxheap.dir/introprog_main_maxheap.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_maxheap.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_maxheap.dir
+
+build CMakeFiles/introprog_maxheap.dir/introprog_maxheap.c.o: C_COMPILER__introprog_maxheap_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_maxheap.c || cmake_object_order_depends_target_introprog_maxheap
+  DEP_FILE = CMakeFiles/introprog_maxheap.dir/introprog_maxheap.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_maxheap.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_maxheap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_maxheap
+
+
+#############################################
+# Link the executable introprog_maxheap
+
+build introprog_maxheap: C_EXECUTABLE_LINKER__introprog_maxheap_Debug CMakeFiles/introprog_maxheap.dir/introprog_main_maxheap.c.o CMakeFiles/introprog_maxheap.dir/introprog_maxheap.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_maxheap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_maxheap
+  TARGET_PDB = introprog_maxheap.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_quicksort
+
+
+#############################################
+# Order-only phony target for introprog_quicksort
+
+build cmake_object_order_depends_target_introprog_quicksort: phony || CMakeFiles/introprog_quicksort.dir
+
+build CMakeFiles/introprog_quicksort.dir/main_quicksort.c.o: C_COMPILER__introprog_quicksort_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/main_quicksort.c || cmake_object_order_depends_target_introprog_quicksort
+  DEP_FILE = CMakeFiles/introprog_quicksort.dir/main_quicksort.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_quicksort.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_quicksort.dir
+
+build CMakeFiles/introprog_quicksort.dir/introprog_quicksort.c.o: C_COMPILER__introprog_quicksort_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_quicksort.c || cmake_object_order_depends_target_introprog_quicksort
+  DEP_FILE = CMakeFiles/introprog_quicksort.dir/introprog_quicksort.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_quicksort.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_quicksort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_quicksort
+
+
+#############################################
+# Link the executable introprog_quicksort
+
+build introprog_quicksort: C_EXECUTABLE_LINKER__introprog_quicksort_Debug CMakeFiles/introprog_quicksort.dir/main_quicksort.c.o CMakeFiles/introprog_quicksort.dir/introprog_quicksort.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_quicksort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_quicksort
+  TARGET_PDB = introprog_quicksort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target introprog_avl
+
+
+#############################################
+# Order-only phony target for introprog_avl
+
+build cmake_object_order_depends_target_introprog_avl: phony || CMakeFiles/introprog_avl.dir
+
+build CMakeFiles/introprog_avl.dir/main_avl.c.o: C_COMPILER__introprog_avl_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/main_avl.c || cmake_object_order_depends_target_introprog_avl
+  DEP_FILE = CMakeFiles/introprog_avl.dir/main_avl.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_avl.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_avl.dir
+
+build CMakeFiles/introprog_avl.dir/introprog_avl.c.o: C_COMPILER__introprog_avl_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/introprog_avl.c || cmake_object_order_depends_target_introprog_avl
+  DEP_FILE = CMakeFiles/introprog_avl.dir/introprog_avl.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_avl.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_avl.dir
+
+build CMakeFiles/introprog_avl.dir/avl.c.o: C_COMPILER__introprog_avl_Debug /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/avl.c || cmake_object_order_depends_target_introprog_avl
+  DEP_FILE = CMakeFiles/introprog_avl.dir/avl.c.o.d
+  FLAGS = -arch arm64 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/introprog_avl.dir
+  OBJECT_FILE_DIR = CMakeFiles/introprog_avl.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target introprog_avl
+
+
+#############################################
+# Link the executable introprog_avl
+
+build introprog_avl: C_EXECUTABLE_LINKER__introprog_avl_Debug CMakeFiles/introprog_avl.dir/main_avl.c.o CMakeFiles/introprog_avl.dir/introprog_avl.c.o CMakeFiles/introprog_avl.dir/avl.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/introprog_avl.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = introprog_avl
+  TARGET_PDB = introprog_avl.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/melissathephasdin/Desktop/Mel/UNI/TU/VL Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/melissathephasdin/Desktop/Mel/UNI/TU/VL Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/melissathephasdin/Desktop/Mel/UNI/TU/VL Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22" -B"/Users/melissathephasdin/Desktop/Mel/UNI/TU/VL Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/cmake-build-debug
+
+build all: phony test ckurs_blatt01_aufgabe02 ckurs_blatt02_aufgabe01 ckurs_blatt03_aufgabe01 ckurs_blatt04_aufgabe01 ckurs_blatt05_aufgabe01 ckurs_blatt06_aufgabe01 introprog_insertionsort introprog_countsort introprog_complexity_steps_intro introprog_complexity_steps_sorting introprog_buecherliste introprog_sortierte_buecherliste introprog_stacks-rpn introprog_telefonbuch introprog_merge_sort_rekursiv introprog_merge_sort_iterativ introprog_maxheap introprog_quicksort introprog_avl
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/melissathephasdin/Desktop/Mel/UNI/TU/VL$ Unterlagen/40017_9_Einführung_in_die_Programmierung/C_workshop/Repos/introprog-ws22/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
